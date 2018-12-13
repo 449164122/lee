@@ -1,0 +1,24 @@
+<view style="text-align:center;padding-top:2rpx;padding-bottom:12rpx">
+  map地图案例
+</view>
+<view style="height:500rpx">
+  <map  style="width:100%;height:100%" 
+  latitude="{{latitude}}" 
+  longitude="{{longitude}}"
+  scale="18"
+  markers="{{markers}}"
+  callout="{{callout}}"
+  ></map>
+</view>
+<input value="{{aaa}}"></input>
+<view class='button_item'>
+  <form class="form_item" bindsubmit='gorRunnerLobby' report-submit='true' data-type="1">
+   <button class="button" form-type='submit'>
+    <text>抢单大厅</text>
+    <text class='runner_desc'>(兼职也可月入万元)</text>
+   </button>
+  </form>
+  <view class='right_arrow' />
+ </view>
+
+
